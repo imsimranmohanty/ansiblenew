@@ -1,5 +1,5 @@
----
-- name: install mysql
+--- 
+- name: mysql installation
   hosts: all
   roles:
     - role: geerlingguy.mysql
